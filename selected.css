@@ -1,0 +1,89 @@
+@charset "utf-8";
+body{font-family:Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif";}
+.dropbtn{position: relative;display: inline-block;}
+.topmenu{background:#000000;width: 100%;height: 25px;position: fixed;top: 0px;right: 0px}
+.topmenu ul{list-style-type: none;margin: 0;padding: 0;overflow: hidden;}
+.topmenu li{float: left;color: white;font-size: 12px;margin-top: 5px;font-family: Verdana;}
+.topmenu a{color: white;text-align: center;padding: 14px 16px;text-decoration: none;}
+.topmenu a:hover{text-decoration: underline;}
+.head{opacity: 0.95;margin: 0px;border: 0px;position: fixed;top: 25px;width: 100%;height: 120px;background-color: #FFFFFF;}
+.logo img{text-align: center;position: fixed;top: 52px;right: 42%;}
+.search{position: fixed;top: 52px;right: 15%;display: block;}
+.search:focus{outline: none;}
+.notice{position: fixed;top:100px;left: 15%;}
+.notice ul li{display: inline;padding: 35px;font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif";}
+.notice ul li a{text-decoration: none;color: black;font-family:; font-size: 13px;}
+.content1{min-width:160px;height:180px;opacity: 0.95;position:absolute;left: -40px;text-align: center;display: none;background-color:#FFFFFF;padding: 12px 0px;box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);}
+.dropbtn:hover .content1 a{color:#8E8E8E;padding: 0px 16px;text-decoration: none;display: block;}
+.dropbtn:hover .content1{display:block;}
+.dropbtn:hover .content1 a:hover{color: black;}
+.content2{width:1350px;height: 240px;opacity: 0.95;position: absolute;left:-505px;display: none;background-color: white;padding: 12px 0px;box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);}
+.dropbtn:hover .content2 .link a{color:#8E8E8E;padding: 0px 25px;text-decoration: none;display: inline;font-size: 10px;}
+.dropbtn:hover .content2 .link2 a{color:#000000;font-weight: 800; padding: 0px 25px;text-decoration: none;display: inline;}
+.dropbtn:hover .content2{display: block;}
+.dropbtn:hover .content2 a:hover{color: black;}
+.content3{width: 1350px;height: 240px;opacity: 0.95;position: absolute;left:-630px;display: none;background-color: white;padding: 12px 0px;box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);}
+.dropbtn:hover .content3 .link2 a{color:#000000;font-weight: 800; padding: 0px 25px;text-decoration: none;display: inline;}
+.dropbtn:hover .content3 .link a{color:#8E8E8E;padding: 0px 25px;text-decoration: none;display: inline;font-size: 10px;}
+.dropbtn:hover .content3{display: block;}
+.dropbtn:hover .content3 a:hover{color: black;}
+.content4{width: 280px;height: 240px;opacity: 0.95;position: absolute;left: -110px;display: none;background-color: white;padding:12px 0px;box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);}
+.dropbtn:hover .content4 .link2 a{color: #000000;font-weight: 800;padding: 0px 5px;text-decoration: none;display: inline;}
+.dropbtn:hover .content4 .link a{padding: 0px 5px;color: #8E8E8E;text-decoration: none;display: inline;font-size: 10px;}
+.dropbtn:hover .content4{display: block;}
+.dropbtn:hover .content4 a:hover{color: black;}
+.newarrival{width:25px;height:15px;font-size:8px;color:white;text-align:center;background-color:#E7181B;border-radius:7px;position:fixed;left: 32%;top:115px;}
+.center{text-align: center;}
+.link{color: black;text-align: center;line-height: 16px; }
+.link2{color: black;text-align: center; }
+.side-bar a{background-image:url(images/完整.png);background-repeat: no-repeat;}
+.side-bar {width: 55px;position: fixed;top: 175px;right:135px;font-size: 0;line-height: 0;z-index: 100;}
+.side-bar a {width: 55px;height: 50px;display: inline-block;opacity: 0.5;margin-bottom: 2px;}
+.side-bar a:hover{opacity:1.0;}
+.side-bar .shopcar{background-position: 0px -10px;}
+.side-bar .phone{background-position: 0 -60px;}
+.side-bar .member{background-position: 0 -113px;}
+.side-bar .code{background-position: 0 -165px}
+.side-bar .top{background-position: 0 -215px}
+.two-dimension{display: none;width: 158px;height: 150px;}
+.side-bar .code:hover .two-dimension{display: block;position: absolute;right: 40px;bottom: 15px;}
+.x1 img{position: fixed;top: 210px;right: 17%;}
+.x2 img{position: fixed;top: 210px;right: 17%;}
+	
+.x3{display: none;width: 105px;height: 140px}
+.td1 a:hover .x3{display: block;position: fixed;top: 210px;right: 17%; z-index: 1;}
+.x4{display: none;width: 105px;height: 140px}
+.td2 a:hover .x4{display: block;position: fixed;top: 210px;right: 17%; z-index: 1;}
+.x5{display: none;width: 105px;height: 140px}
+.td3 a:hover .x5{display: block;position: fixed;top: 210px;right: 17%; z-index: 1;}
+.x6{display: none;width: 105px;height: 140px}
+.td4 a:hover .x6{display: block;position: fixed;top: 210px;right: 17%; z-index: 1;}
+.x7{display: none;width: 105px;height: 140px}
+.td5 a:hover .x7{display: block;position: fixed;top: 210px;right: 17%; z-index: 1;}
+.dahaoziti a{font-size: 40px;text-decoration: none;font-weight: 400;color: black;text-align: center;}
+.lookmore a{font-size: 19px;text-decoration: none;font-weight: 200;color: #B0AFAF;text-align: center;}
+.lookmore a:hover{color: black;}
+hr{height: 2px;border: none;background-color: black;width: 600px;}
+.keepleft{margin-left:125px;}
+.lineheight p{line-height: 10px;font-size: 18px;}
+.keepright {margin-left: 350px;}
+.keepleft1{margin-left: 155px;}
+.bottommenu{margin-left: 200px;text-align: center;}
+.bottommenu td{width:110px;}
+.bottommenu a{text-decoration: none;color: black;line-height: 10px;}
+.bottommenu td:hover{background-color:#BDBBBB;}
+.bottommenu td:hover a{color: white;}
+.bottomtip{margin-left: 220px;color:#8F8F8F;display:inline;}
+.bottomtip b{font-size: 13px;}
+.bottomtip td{width: 125px;}
+.bottomtip a{text-decoration: none;color:#8F8F8F;font-size:13px;line-height: 10px;}
+.bottomtip a:hover{text-decoration: underline;color: black}
+.bottomblock{display: inline;float: right;margin-right: 255px;margin-top: 50px;}
+.bottomblock td{width: 100px;background-color: black;}
+.bottomblock a{text-decoration: none;color: white;font-size: 13px;text-align: center;}
+.bottom{margin-left: 220px;}
+.bottom td{width: 300px;}
+.hr1{width:71%; height:1px;opacity: 0.5}
+.hr0{width:71%; height:1px;}
+/* CSS Document */
+
